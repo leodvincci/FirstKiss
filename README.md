@@ -1,4 +1,4 @@
-# firstKiss
+# firstKiss - a relationship-building app
 
 <img width="878" alt="image" src="https://github.com/leodvincci/FirstKiss/assets/90817505/d3e5bb0c-06f3-4bb7-84a3-67281143a771">
 
