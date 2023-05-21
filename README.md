@@ -6,9 +6,13 @@ firstKISS is a relationship-building app designed to help couples strengthen the
 
 
 ## Features
-Conversation Starters: Explore thought-provoking prompts to initiate meaningful discussions and deepen your understanding of each other.
-Relationship Challenges: Engage in activities and challenges designed to promote connection, appreciation, and growth within your relationship.
-Shared Journals: Create digital journals to share thoughts, memories, and dreams with your partner, creating a collective narrative of your journey together.
+- Conversation Starters: Explore thought-provoking prompts to initiate meaningful discussions and deepen your understanding of each other.
+
+- Relationship Challenges: Engage in activities and challenges designed to promote connection, appreciation, and growth within your relationship.
+
+- Shared Journals: Create digital journals to share thoughts, memories, and dreams with your partner, creating a collective narrative of your journey together.
 Personalized Date Ideas: Discover a variety of date ideas tailored to your interests and preferences, helping you create memorable experiences and strengthen your bond.
-Love Notes and Reminders: Send virtual love notes and reminders to express affection, appreciation, and support to your partner.
-Relationship Resources: Access a curated collection of articles, videos, and resources on topics related to relationship building, communication, and emotional intimacy.
+
+- Love Notes and Reminders: Send virtual love notes and reminders to express affection, appreciation, and support to your partner.
+
+- Relationship Resources: Access a curated collection of articles, videos, and resources on topics related to relationship building, communication, and emotional intimacy.
