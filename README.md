@@ -13,8 +13,6 @@ firstKISS is a relationship-building app designed to help couples strengthen the
 
 - Personalized Date Ideas: Discover a variety of date ideas tailored to your interests and preferences, helping you create memorable experiences and strengthen your bond.
 
-- Personalized Date Ideas: Discover a variety of date ideas tailored to your interests and preferences, helping you create memorable experiences and strengthen your bond.
-
 - Love Notes and Reminders: Send virtual love notes and reminders to express affection, appreciation, and support to your partner.
 
 - Relationship Resources: Access a curated collection of articles, videos, and resources on topics related to relationship building, communication, and emotional intimacy.
@@ -22,12 +20,20 @@ firstKISS is a relationship-building app designed to help couples strengthen the
 
 
 ## Mocks
-![image](https://github.com/leodvincci/FirstKiss/assets/90817505/14ca9680-2459-4322-a746-6dc16520a11a)
-![image](https://github.com/leodvincci/FirstKiss/assets/90817505/30ee718f-b90f-421b-acab-2762b5bb4a6f)
-![image](https://github.com/leodvincci/FirstKiss/assets/90817505/5c73e26b-eafb-4084-9f06-c111569465ee)
+
+<img width="1440" alt="Screenshot 2023-05-21 at 11 23 44 AM" src="https://github.com/leodvincci/FirstKiss/assets/90817505/c7670e92-671c-41d1-9168-02b77b631fc4">
+
+
+<img width="1440" alt="Screenshot 2023-05-21 at 11 23 51 AM" src="https://github.com/leodvincci/FirstKiss/assets/90817505/29da38db-cac7-4ba4-9535-5ba77fb1c6af">
+
+
+
+
 ![image](https://github.com/leodvincci/FirstKiss/assets/90817505/3b32fe51-a3dc-4094-899e-6a2512708b51)
 
 ![image](https://github.com/leodvincci/FirstKiss/assets/90817505/a66e976c-9f94-4521-8977-d44e36a014fa)
+
+<img width="1440" alt="Screenshot 2023-05-21 at 11 24 04 AM" src="https://github.com/leodvincci/FirstKiss/assets/90817505/cfcf269b-0369-4f7d-97eb-3546787acb86">
 
 
 
