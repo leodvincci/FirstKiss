@@ -12,7 +12,6 @@ def user_signup(request):
     last_name = request.data["last_name"]
     email = request.data["email"]
     password = request.data["password"]
-
-    new_user = User.objects.create_user(username=email,email=email,password=password,first_name=first_name,last_name=last_name)
-    print("theUSer: ", new_user)
+    new_user = User.objects.create_user(username=email, email=email, password=password, first_name=first_name,
+                                        last_name=last_name)
     return JsonResponse({"042": "Success"})
