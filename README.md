@@ -4,6 +4,12 @@
 firstKISS is a relationship-building app designed to help couples strengthen their emotional connections and foster deeper intimacy. With thought-provoking conversation starters, relationship challenges, shared journals, and personalized date ideas, firstKISS provides a platform for couples to engage in meaningful interactions, enhance communication, and create lasting memories. Take your relationship to new depths with firstKISS and cultivate a stronger bond with your partner.
 <img width="878" alt="image" src="https://github.com/leodvincci/FirstKiss/assets/90817505/d3e5bb0c-06f3-4bb7-84a3-67281143a771">
 
+## Tech Stack
+**Client:** React, TailwindCSS
+
+**Server:** Django, Django Rest Framework, Python
+
+
 ## Features
 - Conversation Starters: Explore thought-provoking prompts to initiate meaningful discussions and deepen your understanding of each other.
 
@@ -16,6 +22,8 @@ firstKISS is a relationship-building app designed to help couples strengthen the
 - Love Notes and Reminders: Send virtual love notes and reminders to express affection, appreciation, and support to your partner.
 
 - Relationship Resources: Access a curated collection of articles, videos, and resources on topics related to relationship building, communication, and emotional intimacy.
+
+
 
 
 ## Screenshots
