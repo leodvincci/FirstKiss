@@ -19,7 +19,7 @@ firstKISS is a relationship-building app designed to help couples strengthen the
 
 
 ## Screenshots
-![image](https://github.com/leodvincci/FirstKiss/assets/90817505/840ef085-e688-43a9-9a2e-e7a82b185748)
+![image](https://github.com/leodvincci/FirstKiss/assets/90817505/c2a6bda7-6d2d-478b-9a08-9615011ad0c0)
 ![image](https://github.com/leodvincci/FirstKiss/assets/90817505/c7109b92-08e3-4594-96db-dae64d72f6d9)
 
 
