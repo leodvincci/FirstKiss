@@ -1,9 +1,18 @@
 import React from "react";
+import axios from "axios";
 export default function RegistrationPage(){
 
     const [userReg, setUserReg] = React.useState({firstName:"",lastName:"",email:"",password:""})
     function handleClick(){
-        console.log(userReg)
+        axios.post('http://127.0.0.1:8000/api/v1/usersignup', {
+            ...userReg
+        })
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
     }
 
     function handleForm(e){
