@@ -1,10 +1,10 @@
 import {Route, Routes} from "react-router-dom";
-import LoginPage from "../pages/LoginPage.jsx";
+import RegistrationPage from "../pages/RegistrationPage.jsx";
 
 export default function RouteConfig(){
     return(
         <Routes>
-            <Route path={"/login"} element={<LoginPage/>}/>
+            <Route path={"/register"} element={<RegistrationPage/>}/>
         </Routes>
 
     )
