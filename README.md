@@ -18,6 +18,10 @@ firstKISS is a relationship-building app designed to help couples strengthen the
 - Relationship Resources: Access a curated collection of articles, videos, and resources on topics related to relationship building, communication, and emotional intimacy.
 
 
+## Screenshots
+![image](https://github.com/leodvincci/FirstKiss/assets/90817505/840ef085-e688-43a9-9a2e-e7a82b185748)
+
+
 
 ## Mocks
 
