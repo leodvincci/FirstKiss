@@ -37,7 +37,7 @@ export default function RegistrationPage(){
                 <div className={`flex flex-col justify-between h-1/4`}>
                     <input onChange={handleForm}  id={"first_name"} className={"rounded-md p-3 m-2"} type="text" placeholder={"first name"}/>
                     <input onChange={handleForm}  id={"last_name"} className={"rounded-md p-3 m-2"}  type="text" placeholder={"last name"}/>
-                    <input onChange={handleForm}  id={"email"} className={"rounded-md p-3 m-2"}  type="text" placeholder={"email"}/>
+                    <input onChange={handleForm}  id={"email"} className={"rounded-md p-3 m-2"}  type="email" placeholder={"email"}/>
                     <input onChange={handleForm}  id={"password"} className={"rounded-md p-3 m-2"} type="password" placeholder={"password"}/>
                 </div>
                 <button onClick={handleClick} className="btn m-[90px]">Register</button>
