@@ -1,8 +1,11 @@
 from django.shortcuts import render
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from django.contrib.auth.models import User
 from rest_framework.decorators import api_view
 from django.contrib.auth import login, authenticate
+from rest_framework.response import Response
+from rest_framework import status
+from rest_framework_simplejwt.tokens import RefreshToken
 
 
 # Create your views here.
@@ -25,6 +28,15 @@ def user_login(request):
     user = authenticate(request, username=username, password=password)
     if user is not None:
         login(request, user)
-        return JsonResponse({"login success":request.user.email})
+        refresh = RefreshToken.for_user(user)
+        response_data = {
+            'refresh': str(refresh),
+            'access': str(refresh.access_token),
+        }
+        return Response(response_data, status=status.HTTP_200_OK)
     else:
-        return JsonResponse({"444": "Nope!"})
+        return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
+
+@api_view(["GET"])
+def test_endpoint(request):
+    return HttpResponse(f"<h1>Welcome {request.user.first_name} </h1>")
