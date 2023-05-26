@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.http import JsonResponse, HttpResponse
 from django.contrib.auth.models import User
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import IsAuthenticated
 from django.contrib.auth import login, authenticate
 from rest_framework.response import Response
 from rest_framework import status
@@ -37,6 +38,8 @@ def user_login(request):
     else:
         return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
 
+
 @api_view(["GET"])
+@permission_classes([IsAuthenticated])
 def test_endpoint(request):
     return HttpResponse(f"<h1>Welcome {request.user.first_name} </h1>")
