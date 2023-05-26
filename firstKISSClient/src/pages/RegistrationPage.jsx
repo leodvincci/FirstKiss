@@ -28,7 +28,7 @@ export default function RegistrationPage(){
     return(
         <div className={"flex flex-row"}>
 
-            <div className={"bg-red-500 h-screen flex flex-row justify-center items-center text-9xl w-1/2"}>
+            <div className={"bg-red-400 h-screen flex flex-row justify-center items-center text-9xl w-1/2"}>
                 <img className={"ml-[80px] mb-9"} src={fk} alt="people hugging" width={"700px"} height={"800px"}/>
             </div>
 
