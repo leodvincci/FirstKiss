@@ -1,6 +1,19 @@
 import fk from "../assets/img.png"
 import logo from "../assets/img_1.png"
+import React from "react";
 export default function LoginPage(){
+
+    const [userData, setUserData] = React.useState({email:"","password":""})
+    console.log(userData)
+    function handleForm(e){
+
+        setUserData( prevState => {
+            return(
+                {...prevState, [e.target.name]:e.target.value}
+            )
+        } )
+    }
+
     return(
         <div className={"flex flex-row w-screen h-screen"}>
 
@@ -11,10 +24,10 @@ export default function LoginPage(){
             <div className={"bg-red-400 w-full h-full "}>
                 <div className={"h-full w-full flex flex-col items-center justify-center"}>
                     <img src={logo} alt="" width={"30%"}/>
-                    <input className={"m-2 p-2 rounded-md"} type="text" placeholder={"email"}/>
-                    <input className={"m-2 p-2 rounded-md"} type="password" placeholder={"password"}/>
+                    <input onChange={handleForm} name={"email"} className={"m-2 p-2 rounded-md"} type="text" placeholder={"email"}/>
+                    <input onChange={handleForm} name={"password"} className={"m-2 p-2 rounded-md"} type="password" placeholder={"password"}/>
                     <div className={"m-5"}>
-                        <button className="btn">login</button>
+                        <button onClick={handleForm} className="btn">login</button>
                     </div>
 
                 </div>
