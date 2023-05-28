@@ -15,6 +15,8 @@ firstKISS is a relationship-building app designed to help couples strengthen the
 
 - Relationship Challenges: Engage in activities and challenges designed to promote connection, appreciation, and growth within your relationship.
 
+- Goal Creation: The feature allows couples to create shared goals directly within your GitHub repository. They can define the goal, set a clear objective, and provide any necessary details or requirements.
+
 - Shared Journals: Create digital journals to share thoughts, memories, and dreams with your partner, creating a collective narrative of your journey together.
 
 - Personalized Date Ideas: Discover a variety of date ideas tailored to your interests and preferences, helping you create memorable experiences and strengthen your bond.
